@@ -1,14 +1,21 @@
-package taller3.televisores;
+package taller3.televisores.TVs;
 
 public class Marca {
 
+    /*Atributos*/
+
     private String nombre;
 
+    /*Constructor*/
+    
     public Marca(String nombre){
         this.nombre = nombre;
     }
 
-    public Void setNombre(String nombre){
+
+    /*Gets and sets*/
+
+    public void setNombre(String nombre){
         this.nombre = nombre;
     }
 

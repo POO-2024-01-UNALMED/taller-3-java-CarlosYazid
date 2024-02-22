@@ -1,5 +1,7 @@
 package taller3.televisores;
 
+import taller3.televisores.TVs.*;
+
 public class TestTV {
 	public static void main(String[] args) {
 		Marca marca1 = new Marca("Semsung");
