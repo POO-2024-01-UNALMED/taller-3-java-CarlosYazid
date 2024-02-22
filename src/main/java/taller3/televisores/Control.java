@@ -53,11 +53,11 @@ public class Control {
 
     /*Gets and Sets*/
 
-    public void setTV(TV tv){
+    public void setTv(TV tv){
         this.tv = tv;
         tv.control = this;
     }
 
-    public TV getTV(){return tv;}
+    public TV getTv(){return tv;}
     
 }

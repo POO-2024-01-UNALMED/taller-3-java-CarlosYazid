@@ -47,9 +47,9 @@ public class TV {
 
     //Cantidad de TV's
 
-    public int getNumTV(){return numTV;}
+    public static int getNumTV(){return numTV;}
 
-    public void setNumTV(int numTV) {TV.numTV = numTV;}
+    public static void setNumTV(int numTV) {TV.numTV = numTV;}
 
     //Marca
 
