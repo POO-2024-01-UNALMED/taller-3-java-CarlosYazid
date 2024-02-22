@@ -79,4 +79,13 @@ public class TV {
 
     public int getVolumen(){return volumen;}
 
+    //Control
+
+    public void setControl(Control control) {
+        this.control = control;
+        control.tv = this;
+    }
+
+    public Control getControl(){return control;}
+
 }

@@ -6,7 +6,7 @@ public class Control {
 
     /*Atributos*/
     
-    private TV tv;
+    protected TV tv;
 
     /*Metodos*/
 
@@ -53,7 +53,10 @@ public class Control {
 
     /*Gets and Sets*/
 
-    public void setTV(TV tv){this.tv = tv;}
+    public void setTV(TV tv){
+        this.tv = tv;
+        tv.control = this;
+    }
 
     public TV getTV(){return tv;}
     
