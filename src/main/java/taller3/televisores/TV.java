@@ -8,7 +8,7 @@ public class TV {
     /*Atributes*/
     
     protected Marca marca;
-    protected int canal = 1;
+    public int canal = 1;
     protected int precio = 500;
     protected Boolean estado;
     protected int volumen = 1;
