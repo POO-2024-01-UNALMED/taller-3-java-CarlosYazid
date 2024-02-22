@@ -1,7 +1,7 @@
-package taller3.televisores.TVs;
+package taller3.televisores;
 
 import java.rmi.MarshalException;
-import taller3.televisores.TVs.*;
+import taller3.televisores.*;
 
 public class TV {
 

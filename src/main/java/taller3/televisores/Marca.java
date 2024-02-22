@@ -1,4 +1,4 @@
-package taller3.televisores.TVs;
+package taller3.televisores;
 
 public class Marca {
 
