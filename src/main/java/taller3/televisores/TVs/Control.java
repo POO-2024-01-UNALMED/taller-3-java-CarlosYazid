@@ -24,6 +24,10 @@ public class Control {
 
     public void volumenDown() {tv.volumenDown();}
 
+    public int getCanal() {return tv.getCanal();}
+    
+    public void setCanal(int canal) {tv.setCanal(canal);}
+
     //Instancia
     
     public void enlazar(TV tv){
