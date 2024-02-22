@@ -25,21 +25,21 @@ public class TV {
 
     /*Metodos de estado */
 
-    protected void turnOn(){estado = true;}
+    public void turnOn(){estado = true;}
 
-    protected void turnOff(){estado = false;}
+    public void turnOff(){estado = false;}
 
     /*Metodos de canal */
 
-    protected void canalUp(){if (estado) {canal = (canal < 120)? canal++ : canal;}}
+    public void canalUp(){if (estado) {canal = (canal < 120)? canal++ : canal;}}
 
-    protected void canalDown(){if (estado) {canal = (1 < canal)? canal-- : canal;}}
+    public void canalDown(){if (estado) {canal = (1 < canal)? canal-- : canal;}}
 
     /*Metodos de volumen */
 
-    protected void volumenUp(){if (estado) {volumen = (volumen < 7)? volumen++ : volumen;}}
+    public void volumenUp(){if (estado) {volumen = (volumen < 7)? volumen++ : volumen;}}
 
-    protected void volumenDown(){if (estado) {volumen = (0 < volumen)? volumen-- : volumen;}}
+    public void volumenDown(){if (estado) {volumen = (0 < volumen)? volumen-- : volumen;}}
 
 
 
