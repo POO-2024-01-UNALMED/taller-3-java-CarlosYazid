@@ -7,12 +7,12 @@ public class TV {
 
     /*Atributes*/
     
-    protected Marca marca;
+    public Marca marca;
     public int canal = 1;
-    protected int precio = 500;
-    protected Boolean estado;
-    protected int volumen = 1;
-    protected static int numTV;
+    public int precio = 500;
+    public Boolean estado;
+    public int volumen = 1;
+    public static int numTV;
     public Control control;
 
     /*Constructor*/
