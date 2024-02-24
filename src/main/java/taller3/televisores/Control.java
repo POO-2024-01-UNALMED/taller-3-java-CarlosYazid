@@ -24,25 +24,13 @@ public class Control {
 
     public void volumenDown() {tv.volumenDown();}
 
-    //public int getCanal() {return tv.getCanal();}
+    public int getCanal() {return tv.getCanal();}
     
     public void setCanal(int canal) {tv.setCanal(canal);}
 
-    //public void setMarca(Marca marca){tv.setMarca(marca);}
-
-    //public Marca getMarca(){return tv.getMarca();}
-
-    //public void setPrecio(int precio){tv.setPrecio(precio);}
-
-    //public int getPrecio(){return tv.getPrecio();}
-
-    //public void setEstado(Boolean estado){tv.setEstado(estado);}
-
-    //public Boolean getEstado(){return tv.getEstado();}
-
     public void setVolumen(int volumen){tv.setVolumen(volumen);}
 
-    //public int getVolumen(){return tv.getVolumen();}
+    public int getVolumen(){return tv.getVolumen();}
 
     //Instancia
     
@@ -60,4 +48,4 @@ public class Control {
 
     public TV getTv(){return tv;}
     
-}
+} // Anti-copy: Carlos Yazid Padilla Royero

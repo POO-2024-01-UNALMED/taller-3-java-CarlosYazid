@@ -23,4 +23,4 @@ public class Marca {
         return nombre;
     }
     
-}
+} //Anti-copy: Carlos Yazid Padilla Royero

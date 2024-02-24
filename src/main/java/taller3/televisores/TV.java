@@ -2,6 +2,19 @@ package taller3.televisores;
 
 import java.rmi.MarshalException;
 
+/*
+ *  Taller 3 Java
+ *  Realizado el 23 de febrero del 2024
+ *  Desarrollado por Carlos Yazid Padilla
+ *  Topico: Encapsulamiento y Constructores
+ * 
+ *  Dependencias:
+ * 
+ *  - Televisores > TV
+ *  - Televisores > Marca
+ *  - Televisores > Control
+ * 
+ */
 
 public class TV {
 
@@ -59,13 +72,7 @@ public class TV {
 
     //Canal
 
-    public void setCanal(int canal){
-        if (estado) {
-            if (canal <= 120 && canal > 0){
-                this.canal = canal;
-            }             
-        }
-    }
+    public void setCanal(int canal){if (estado) {if (canal <= 120 && canal > 0){this.canal = canal;}}}
 
     public int getCanal() {return canal;}
 
@@ -77,7 +84,7 @@ public class TV {
 
     //Estado
 
-    //public void setEstado(Boolean estado){this.estado = estado;}
+    public void setEstado(Boolean estado){this.estado = estado;}
 
     public Boolean getEstado(){return estado;}
 
@@ -89,11 +96,8 @@ public class TV {
 
     //Control
 
-    public void setControl(Control control) {
-        this.control = control;
-        control.tv = this;
-    }
+    public void setControl(Control control) {this.control = control; control.tv = this;}
 
     public Control getControl(){return control;}
 
-}
+} // Anti-copy: Carlos Padilla Royero
