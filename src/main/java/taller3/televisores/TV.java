@@ -7,13 +7,13 @@ public class TV {
 
     /*Atributes*/
     
-    public Marca marca;
-    public int canal = 1;
-    public int precio = 500;
-    public Boolean estado;
-    public int volumen = 1;
-    public static int numTV;
-    public Control control;
+    private Marca marca;
+    private int canal = 1;
+    private int precio = 500;
+    private Boolean estado;
+    private int volumen = 1;
+    private static int numTV;
+    private Control control;
 
     /*Constructor*/
 
@@ -61,16 +61,13 @@ public class TV {
 
     public void setCanal(int canal){
         if (estado) {
-            if (canal > 120 || canal <= 0){
-                return;
-            } else {
+            if (canal <= 120 && canal > 0){
                 this.canal = canal;
-            }
-            
+            }             
         }
     }
 
-    public int getCanal(){return canal;}
+    public int getCanal() {return canal;}
 
     //Precio
 
