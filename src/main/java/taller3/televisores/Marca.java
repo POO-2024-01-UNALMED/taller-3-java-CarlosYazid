@@ -4,7 +4,7 @@ public class Marca {
 
     /*Atributos*/
 
-    protected String nombre;
+    private String nombre;
 
     /*Constructor*/
     
