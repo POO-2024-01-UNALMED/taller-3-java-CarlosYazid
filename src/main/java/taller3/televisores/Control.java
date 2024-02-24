@@ -6,7 +6,7 @@ public class Control {
 
     /*Atributos*/
     
-    public TV tv;
+    private TV tv;
 
     /*Metodos*/
 
