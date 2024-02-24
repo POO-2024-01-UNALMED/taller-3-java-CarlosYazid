@@ -1,19 +1,19 @@
 package taller3.televisores;
 
 import java.rmi.MarshalException;
-import taller3.televisores.*;
+
 
 public class TV {
 
     /*Atributes*/
     
-    private Marca marca;
-    private int canal = 1;
-    private int precio = 500;
-    private Boolean estado;
-    private int volumen = 1;
-    private static int numTV;
-    private Control control;
+    protected Marca marca;
+    protected int canal = 1;
+    protected int precio = 500;
+    protected Boolean estado;
+    protected int volumen = 1;
+    protected static int numTV;
+    protected Control control;
 
     /*Constructor*/
 
@@ -31,15 +31,15 @@ public class TV {
 
     /*Metodos de canal */
 
-    public void canalUp(){if (estado) {canal = (canal < 120)? canal++ : canal;}}
+    public void canalUp(){if (estado) {canal = (canal < 120)? canal+1 : canal;}}
 
-    public void canalDown(){if (estado) {canal = (1 < canal)? canal-- : canal;}}
+    public void canalDown(){if (estado) {canal = (1 < canal)? canal-1 : canal;}}
 
     /*Metodos de volumen */
 
-    public void volumenUp(){if (estado) {volumen = (volumen < 7)? volumen++ : volumen;}}
+    public void volumenUp(){if (estado) {volumen = (volumen < 7)? volumen+1 : volumen;}}
 
-    public void volumenDown(){if (estado) {volumen = (0 < volumen)? volumen-- : volumen;}}
+    public void volumenDown(){if (estado) {volumen = (0 < volumen)? volumen-1 : volumen;}}
 
 
 
@@ -77,7 +77,7 @@ public class TV {
 
     //Estado
 
-    public void setEstado(Boolean estado){this.estado = estado;}
+    //public void setEstado(Boolean estado){this.estado = estado;}
 
     public Boolean getEstado(){return estado;}
 

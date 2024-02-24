@@ -7,3 +7,5 @@ build/
 .metadata
 .github
 .gradle
+.gradle/
+.github/
